@@ -1,3 +1,5 @@
+package fibonacci;
+
 public class Fibonacci {
     int[] serieFibonacci;
 
@@ -16,8 +18,10 @@ public class Fibonacci {
     }
 
     public void exibirFibonacci() {
+        System.out.print("\nSequência de Fibonacci: ");
         for (int num: serieFibonacci) {
             System.out.print(num + " ");
         }
+        System.out.println();
     }
 }
